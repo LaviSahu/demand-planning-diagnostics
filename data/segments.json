@@ -1,0 +1,282 @@
+[
+  {
+    "sku_id": "BEV-SMOO-01",
+    "adi": 1.0,
+    "cv2": 0.0962,
+    "segment": "smooth",
+    "volume_share": 0.028768
+  },
+  {
+    "sku_id": "SNA-SMOO-02",
+    "adi": 1.0,
+    "cv2": 0.07,
+    "segment": "smooth",
+    "volume_share": 0.060591
+  },
+  {
+    "sku_id": "HOU-SMOO-03",
+    "adi": 1.0,
+    "cv2": 0.0721,
+    "segment": "smooth",
+    "volume_share": 0.045913
+  },
+  {
+    "sku_id": "BEV-SMOO-04",
+    "adi": 1.0,
+    "cv2": 0.0163,
+    "segment": "smooth",
+    "volume_share": 0.033075
+  },
+  {
+    "sku_id": "SNA-SMOO-05",
+    "adi": 1.0,
+    "cv2": 0.0838,
+    "segment": "smooth",
+    "volume_share": 0.053659
+  },
+  {
+    "sku_id": "HOU-SMOO-06",
+    "adi": 1.0,
+    "cv2": 0.0146,
+    "segment": "smooth",
+    "volume_share": 0.028497
+  },
+  {
+    "sku_id": "BEV-SMOO-07",
+    "adi": 1.0,
+    "cv2": 0.0194,
+    "segment": "smooth",
+    "volume_share": 0.050141
+  },
+  {
+    "sku_id": "SNA-SMOO-08",
+    "adi": 1.0,
+    "cv2": 0.0197,
+    "segment": "smooth",
+    "volume_share": 0.053886
+  },
+  {
+    "sku_id": "HOU-SMOO-09",
+    "adi": 1.0,
+    "cv2": 0.0548,
+    "segment": "smooth",
+    "volume_share": 0.029125
+  },
+  {
+    "sku_id": "BEV-SMOO-10",
+    "adi": 1.0,
+    "cv2": 0.0154,
+    "segment": "smooth",
+    "volume_share": 0.029139
+  },
+  {
+    "sku_id": "SNA-ERRA-01",
+    "adi": 1.0,
+    "cv2": 0.6431,
+    "segment": "erratic",
+    "volume_share": 0.032791
+  },
+  {
+    "sku_id": "HOU-ERRA-02",
+    "adi": 1.0,
+    "cv2": 0.8029,
+    "segment": "erratic",
+    "volume_share": 0.028833
+  },
+  {
+    "sku_id": "BEV-ERRA-03",
+    "adi": 1.0,
+    "cv2": 0.7596,
+    "segment": "erratic",
+    "volume_share": 0.048493
+  },
+  {
+    "sku_id": "SNA-ERRA-04",
+    "adi": 1.0,
+    "cv2": 0.7301,
+    "segment": "erratic",
+    "volume_share": 0.035072
+  },
+  {
+    "sku_id": "HOU-ERRA-05",
+    "adi": 1.0,
+    "cv2": 0.5914,
+    "segment": "erratic",
+    "volume_share": 0.077093
+  },
+  {
+    "sku_id": "BEV-ERRA-06",
+    "adi": 1.0,
+    "cv2": 0.6407,
+    "segment": "erratic",
+    "volume_share": 0.063788
+  },
+  {
+    "sku_id": "SNA-ERRA-07",
+    "adi": 1.0,
+    "cv2": 0.8439,
+    "segment": "erratic",
+    "volume_share": 0.035874
+  },
+  {
+    "sku_id": "HOU-ERRA-08",
+    "adi": 1.0,
+    "cv2": 0.6162,
+    "segment": "erratic",
+    "volume_share": 0.066121
+  },
+  {
+    "sku_id": "BEV-ERRA-09",
+    "adi": 1.0,
+    "cv2": 0.8347,
+    "segment": "erratic",
+    "volume_share": 0.053347
+  },
+  {
+    "sku_id": "SNA-ERRA-10",
+    "adi": 1.0,
+    "cv2": 0.7031,
+    "segment": "erratic",
+    "volume_share": 0.059505
+  },
+  {
+    "sku_id": "HOU-INTE-01",
+    "adi": 1.8571,
+    "cv2": 0.0178,
+    "segment": "intermittent",
+    "volume_share": 0.005637
+  },
+  {
+    "sku_id": "BEV-INTE-02",
+    "adi": 1.5758,
+    "cv2": 0.0143,
+    "segment": "intermittent",
+    "volume_share": 0.006176
+  },
+  {
+    "sku_id": "SNA-INTE-03",
+    "adi": 1.9259,
+    "cv2": 0.0174,
+    "segment": "intermittent",
+    "volume_share": 0.006635
+  },
+  {
+    "sku_id": "HOU-INTE-04",
+    "adi": 2.08,
+    "cv2": 0.0126,
+    "segment": "intermittent",
+    "volume_share": 0.00279
+  },
+  {
+    "sku_id": "BEV-INTE-05",
+    "adi": 1.6774,
+    "cv2": 0.0101,
+    "segment": "intermittent",
+    "volume_share": 0.005806
+  },
+  {
+    "sku_id": "SNA-INTE-06",
+    "adi": 2.2128,
+    "cv2": 0.0121,
+    "segment": "intermittent",
+    "volume_share": 0.004082
+  },
+  {
+    "sku_id": "HOU-INTE-07",
+    "adi": 1.3333,
+    "cv2": 0.0138,
+    "segment": "intermittent",
+    "volume_share": 0.005288
+  },
+  {
+    "sku_id": "BEV-INTE-08",
+    "adi": 1.6774,
+    "cv2": 0.0166,
+    "segment": "intermittent",
+    "volume_share": 0.006819
+  },
+  {
+    "sku_id": "SNA-INTE-09",
+    "adi": 1.5072,
+    "cv2": 0.0136,
+    "segment": "intermittent",
+    "volume_share": 0.008129
+  },
+  {
+    "sku_id": "HOU-INTE-10",
+    "adi": 1.9623,
+    "cv2": 0.0096,
+    "segment": "intermittent",
+    "volume_share": 0.005351
+  },
+  {
+    "sku_id": "BEV-LUMP-01",
+    "adi": 2.6,
+    "cv2": 1.0726,
+    "segment": "lumpy",
+    "volume_share": 0.004481
+  },
+  {
+    "sku_id": "SNA-LUMP-02",
+    "adi": 3.8519,
+    "cv2": 0.6761,
+    "segment": "lumpy",
+    "volume_share": 0.001801
+  },
+  {
+    "sku_id": "HOU-LUMP-03",
+    "adi": 5.2,
+    "cv2": 0.8313,
+    "segment": "lumpy",
+    "volume_share": 0.000927
+  },
+  {
+    "sku_id": "BEV-LUMP-04",
+    "adi": 2.4762,
+    "cv2": 1.1196,
+    "segment": "lumpy",
+    "volume_share": 0.00412
+  },
+  {
+    "sku_id": "SNA-LUMP-05",
+    "adi": 2.8108,
+    "cv2": 1.0177,
+    "segment": "lumpy",
+    "volume_share": 0.004516
+  },
+  {
+    "sku_id": "HOU-LUMP-06",
+    "adi": 2.4762,
+    "cv2": 1.0721,
+    "segment": "lumpy",
+    "volume_share": 0.004035
+  },
+  {
+    "sku_id": "BEV-LUMP-07",
+    "adi": 2.7368,
+    "cv2": 1.6642,
+    "segment": "lumpy",
+    "volume_share": 0.001076
+  },
+  {
+    "sku_id": "SNA-LUMP-08",
+    "adi": 5.2,
+    "cv2": 1.1462,
+    "segment": "lumpy",
+    "volume_share": 0.000929
+  },
+  {
+    "sku_id": "HOU-LUMP-09",
+    "adi": 4.3333,
+    "cv2": 0.8205,
+    "segment": "lumpy",
+    "volume_share": 0.003698
+  },
+  {
+    "sku_id": "BEV-LUMP-10",
+    "adi": 2.2128,
+    "cv2": 0.976,
+    "segment": "lumpy",
+    "volume_share": 0.003993
+  }
+]

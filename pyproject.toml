@@ -1,0 +1,25 @@
+[project]
+name = "demand-planning-diagnostics"
+version = "0.1.0"
+description = "Synthetic weekly demand history -> ADI/CV2 segmentation -> naive/statistical/consensus forecast accuracy -> Forecast Value Added -> single-file HTML dashboard."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Lavi Sahu" }]
+keywords = ["demand-planning", "forecast-value-added", "forecast-accuracy", "s&op", "supply-chain"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/lavisahu/demand-planning-diagnostics"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

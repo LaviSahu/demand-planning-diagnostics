@@ -1,0 +1,325 @@
+{
+  "company": "Northwind Foods",
+  "skus": [
+    {
+      "id": "BEV-SMOO-01",
+      "name": "Cold Brew Coffee 12oz",
+      "category": "beverages",
+      "archetype": "smooth",
+      "revenue_per_unit": 3.42,
+      "promo_eligible": true
+    },
+    {
+      "id": "SNA-SMOO-02",
+      "name": "Sea Salt Potato Chips",
+      "category": "snacks",
+      "archetype": "smooth",
+      "revenue_per_unit": 4.71,
+      "promo_eligible": true
+    },
+    {
+      "id": "HOU-SMOO-03",
+      "name": "Paper Towels 6-Pack",
+      "category": "household",
+      "archetype": "smooth",
+      "revenue_per_unit": 4.31,
+      "promo_eligible": true
+    },
+    {
+      "id": "BEV-SMOO-04",
+      "name": "Sparkling Lemon Water",
+      "category": "beverages",
+      "archetype": "smooth",
+      "revenue_per_unit": 3.13,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-SMOO-05",
+      "name": "Cheddar Popcorn",
+      "category": "snacks",
+      "archetype": "smooth",
+      "revenue_per_unit": 5.22,
+      "promo_eligible": true
+    },
+    {
+      "id": "HOU-SMOO-06",
+      "name": "Lemon Dish Soap",
+      "category": "household",
+      "archetype": "smooth",
+      "revenue_per_unit": 5.02,
+      "promo_eligible": false
+    },
+    {
+      "id": "BEV-SMOO-07",
+      "name": "Orange Juice 1L",
+      "category": "beverages",
+      "archetype": "smooth",
+      "revenue_per_unit": 3.92,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-SMOO-08",
+      "name": "Original Trail Mix",
+      "category": "snacks",
+      "archetype": "smooth",
+      "revenue_per_unit": 4.21,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-SMOO-09",
+      "name": "Laundry Detergent 100oz",
+      "category": "household",
+      "archetype": "smooth",
+      "revenue_per_unit": 7.23,
+      "promo_eligible": true
+    },
+    {
+      "id": "BEV-SMOO-10",
+      "name": "Energy Drink Citrus",
+      "category": "beverages",
+      "archetype": "smooth",
+      "revenue_per_unit": 2.2,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-ERRA-01",
+      "name": "Pretzel Sticks",
+      "category": "snacks",
+      "archetype": "erratic",
+      "revenue_per_unit": 3.48,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-ERRA-02",
+      "name": "All-Purpose Cleaner Spray",
+      "category": "household",
+      "archetype": "erratic",
+      "revenue_per_unit": 6.65,
+      "promo_eligible": true
+    },
+    {
+      "id": "BEV-ERRA-03",
+      "name": "Iced Green Tea",
+      "category": "beverages",
+      "archetype": "erratic",
+      "revenue_per_unit": 4.47,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-ERRA-04",
+      "name": "Yellow Corn Tortilla Chips",
+      "category": "snacks",
+      "archetype": "erratic",
+      "revenue_per_unit": 5.1,
+      "promo_eligible": true
+    },
+    {
+      "id": "HOU-ERRA-05",
+      "name": "Trash Bags 13-Gallon",
+      "category": "household",
+      "archetype": "erratic",
+      "revenue_per_unit": 4.27,
+      "promo_eligible": true
+    },
+    {
+      "id": "BEV-ERRA-06",
+      "name": "Craft Root Beer",
+      "category": "beverages",
+      "archetype": "erratic",
+      "revenue_per_unit": 2.69,
+      "promo_eligible": true
+    },
+    {
+      "id": "SNA-ERRA-07",
+      "name": "Honey Oat Granola Bars",
+      "category": "snacks",
+      "archetype": "erratic",
+      "revenue_per_unit": 4.25,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-ERRA-08",
+      "name": "Toilet Paper 12-Pack",
+      "category": "household",
+      "archetype": "erratic",
+      "revenue_per_unit": 4.32,
+      "promo_eligible": true
+    },
+    {
+      "id": "BEV-ERRA-09",
+      "name": "Coconut Water 500ml",
+      "category": "beverages",
+      "archetype": "erratic",
+      "revenue_per_unit": 1.83,
+      "promo_eligible": true
+    },
+    {
+      "id": "SNA-ERRA-10",
+      "name": "Cheese Crackers",
+      "category": "snacks",
+      "archetype": "erratic",
+      "revenue_per_unit": 3.53,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-INTE-01",
+      "name": "Glass Cleaner Spray",
+      "category": "household",
+      "archetype": "intermittent",
+      "revenue_per_unit": 3.07,
+      "promo_eligible": false
+    },
+    {
+      "id": "BEV-INTE-02",
+      "name": "Vanilla Protein Shake",
+      "category": "beverages",
+      "archetype": "intermittent",
+      "revenue_per_unit": 2.3,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-INTE-03",
+      "name": "Chocolate Chip Cookies",
+      "category": "snacks",
+      "archetype": "intermittent",
+      "revenue_per_unit": 3.81,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-INTE-04",
+      "name": "Fabric Softener 92oz",
+      "category": "household",
+      "archetype": "intermittent",
+      "revenue_per_unit": 6.0,
+      "promo_eligible": false
+    },
+    {
+      "id": "BEV-INTE-05",
+      "name": "Blue Sports Drink",
+      "category": "beverages",
+      "archetype": "intermittent",
+      "revenue_per_unit": 2.4,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-INTE-06",
+      "name": "Brown Rice Cakes",
+      "category": "snacks",
+      "archetype": "intermittent",
+      "revenue_per_unit": 5.05,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-INTE-07",
+      "name": "Multi-Surface Sponges 6-Pack",
+      "category": "household",
+      "archetype": "intermittent",
+      "revenue_per_unit": 3.0,
+      "promo_eligible": false
+    },
+    {
+      "id": "BEV-INTE-08",
+      "name": "Cranberry Juice Cocktail",
+      "category": "beverages",
+      "archetype": "intermittent",
+      "revenue_per_unit": 4.14,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-INTE-09",
+      "name": "Original Beef Jerky",
+      "category": "snacks",
+      "archetype": "intermittent",
+      "revenue_per_unit": 5.51,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-INTE-10",
+      "name": "Lavender Air Freshener",
+      "category": "household",
+      "archetype": "intermittent",
+      "revenue_per_unit": 3.42,
+      "promo_eligible": false
+    },
+    {
+      "id": "BEV-LUMP-01",
+      "name": "Whole Milk 1L",
+      "category": "beverages",
+      "archetype": "lumpy",
+      "revenue_per_unit": 2.93,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-LUMP-02",
+      "name": "Mixed Roasted Nuts",
+      "category": "snacks",
+      "archetype": "lumpy",
+      "revenue_per_unit": 3.69,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-LUMP-03",
+      "name": "Bleach 64oz",
+      "category": "household",
+      "archetype": "lumpy",
+      "revenue_per_unit": 4.21,
+      "promo_eligible": false
+    },
+    {
+      "id": "BEV-LUMP-04",
+      "name": "Almond Milk Unsweetened",
+      "category": "beverages",
+      "archetype": "lumpy",
+      "revenue_per_unit": 2.81,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-LUMP-05",
+      "name": "Fruit Snacks Variety Pack",
+      "category": "snacks",
+      "archetype": "lumpy",
+      "revenue_per_unit": 3.35,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-LUMP-06",
+      "name": "Foaming Hand Soap Refill",
+      "category": "household",
+      "archetype": "lumpy",
+      "revenue_per_unit": 3.43,
+      "promo_eligible": false
+    },
+    {
+      "id": "BEV-LUMP-07",
+      "name": "Classic Cola 2L",
+      "category": "beverages",
+      "archetype": "lumpy",
+      "revenue_per_unit": 4.08,
+      "promo_eligible": false
+    },
+    {
+      "id": "SNA-LUMP-08",
+      "name": "Chili Lime Corn Chips",
+      "category": "snacks",
+      "archetype": "lumpy",
+      "revenue_per_unit": 2.86,
+      "promo_eligible": false
+    },
+    {
+      "id": "HOU-LUMP-09",
+      "name": "Aluminum Foil 75sqft",
+      "category": "household",
+      "archetype": "lumpy",
+      "revenue_per_unit": 5.84,
+      "promo_eligible": false
+    },
+    {
+      "id": "BEV-LUMP-10",
+      "name": "Ginger Ale 1.5L",
+      "category": "beverages",
+      "archetype": "lumpy",
+      "revenue_per_unit": 1.79,
+      "promo_eligible": false
+    }
+  ]
+}

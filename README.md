@@ -1,0 +1,167 @@
+# Demand Planning Diagnostics
+
+**Is our forecast actually adding value — and where is it worst?** A demand planner's
+diagnostic toolkit: synthetic FMCG demand history → demand-pattern segmentation →
+forecast-accuracy scorecard → Forecast Value Added → self-contained HTML dashboard.
+Pure Python 3.10+ standard library, zero dependencies, zero API keys.
+
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![Dependencies](https://img.shields.io/badge/dependencies-stdlib--only-brightgreen)](#60-second-quickstart)
+[![Tests](https://img.shields.io/badge/tests-66%20passing-success)](tests/)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+
+> All data here is **synthetic and generated in-repo** (fictional maker "Northwind Foods") —
+> never real client data. This is AI-assisted analytical work that demonstrates a
+> methodology, not a benchmark of any real company.
+
+## Why
+
+Most demand-planning organisations cannot prove their forecast beats a naive guess, and
+most spend the bulk of their analyst effort on manual overrides that — measured honestly —
+often make accuracy *worse*. The uncomfortable part is that this is computable: you can
+score every step of the forecasting process against a naive benchmark and see exactly where
+human judgement adds value and where it destroys it. Almost nobody does.
+
+This repo runs that diagnostic. It segments demand by *forecastability* (so you stop trying
+to forecast the unforecastable), scores accuracy against a naive baseline with the metric
+that actually matters — volume-weighted error, not the flattering unweighted average — and
+computes **Forecast Value Added** at each step: naive → statistical → the human consensus
+number that ships to the supply plan. The finding it surfaces on this synthetic data is the
+one most planning functions would find if they looked: **the statistical model adds real
+value; the human overrides, on net, take some of it back — and they do the most damage on
+exactly the SKUs that should never have been touched.**
+
+## Architecture
+
+```mermaid
+flowchart TD
+    DG[datagen.py<br/>seeded synthetic generator] --> SK[(data/skus.json<br/>40-SKU catalog)]
+    DG --> HI[(data/history.json<br/>104 wks × actual + 3 forecast layers)]
+
+    HI --> SEG[segment.py<br/>ADI, CV², SBC quadrant]
+    HI --> ACC[accuracy.py<br/>MAPE / WMAPE / bias / TS / MASE]
+    HI --> FVA[fva.py<br/>Forecast Value Added stairstep]
+
+    SEG --> KPI[kpi.py<br/>roll-up catalog, all computed]
+    ACC --> KPI
+    FVA --> KPI
+
+    SEG --> DASH[dashboard.py]
+    ACC --> DASH
+    FVA --> DASH
+    KPI --> DASH
+    DASH --> HTML[[output/dashboard.html<br/>self-contained review deck]]
+```
+
+## 60-second quickstart
+
+```bash
+git clone <your-fork-url> demand-planning-diagnostics
+cd demand-planning-diagnostics
+make demo             # generate data, segment, score accuracy, run FVA, build dashboard
+open output/dashboard.html
+```
+
+No `pip install` required — the entire engine is Python 3.10+ standard library. `make demo`
+is equivalent to `PYTHONPATH=src python3 -m demand_planning_diagnostics demo`.
+
+- `make demo` — one plain line: runs the whole pipeline end to end and writes the dashboard.
+- `make test` — runs the 66-test `unittest` suite (no dependencies).
+- `PYTHONPATH=src python3 -m demand_planning_diagnostics segment` — just the segmentation table.
+- `PYTHONPATH=src python3 -m demand_planning_diagnostics fva` — just the Forecast Value Added stairstep.
+
+## Feature tour
+
+| Module | Concept | What it does |
+|---|---|---|
+| `datagen.py` | Seeded synthetic demand | Builds 40 SKUs × 104 weeks across 4 *true* demand archetypes, plus three layered forecasts (naive → statistical → consensus/override). The override is not tuned to a verdict — its net effect falls out of the data and is measured after the fact. |
+| `segment.py` | Demand-pattern segmentation | Computes **ADI** (average inter-demand interval) and **CV²** (squared coefficient of variation of nonzero demand) per SKU and assigns the Syntetos–Boylan–Croston quadrant (smooth / erratic / intermittent / lumpy). |
+| `accuracy.py` | Forecast-accuracy scorecard | Per-SKU and aggregate MAPE, **WMAPE** (volume-weighted — the honest headline), bias, tracking signal, and **MASE** (vs the in-sample one-step naive benchmark). |
+| `fva.py` | Forecast Value Added | The naive → statistical → consensus stairstep in WMAPE terms, per SKU, per segment and overall; flags every SKU where the override step has **negative FVA**. |
+| `kpi.py` | KPI catalog | Every headline number, computed from real engine outputs — nothing hardcoded. |
+| `dashboard.py` | Self-contained HTML | One dark/light `dashboard.html`: ADI-vs-CV² segmentation scatter, FVA stairstep, accuracy-by-segment, worst-override ranking, KPI tiles — inline CSS/JS/SVG, zero CDN. |
+| `cli.py` | `python -m demand_planning_diagnostics` | `segment` / `accuracy` / `fva` / `demo` / `dashboard`, hand-rolled ANSI console tables. |
+
+## KPI reference
+
+| KPI | Definition |
+|---|---|
+| **WMAPE (consensus)** | Volume-weighted mean absolute percentage error of the shipped consensus forecast — the headline accuracy number. |
+| **FVA: statistical vs naive** | WMAPE improvement (percentage points) the statistical model adds over the naive baseline. |
+| **FVA: consensus vs statistical** | WMAPE change from the human overrides — **the money finding**; negative means overrides destroyed value. |
+| **% SKUs overrides hurt** | Share of SKUs (by count) with negative consensus-vs-statistical FVA. |
+| **Forecastable volume share** | % of unit volume in Smooth+Erratic (forecast-drivable) vs Intermittent+Lumpy (policy-drivable). |
+| **Bias / tracking signal** | Systematic over/under-forecast; \|TS\| > 4 is the rule-of-thumb "out of control" line. |
+| **MASE (consensus)** | Scale-free error vs the in-sample naive benchmark; < 1.0 means the forecast beats naive. |
+
+Full formulas as implemented: [docs/03-kpi-reference.md](docs/03-kpi-reference.md).
+
+## Design decisions
+
+- **WMAPE is the headline, not MAPE.** Unweighted MAPE flatters a portfolio by letting
+  tiny-volume SKUs dominate; the volume-weighted error is the number that actually maps to
+  service and inventory consequences. Both are computed; WMAPE leads.
+- **The override's verdict is measured, not assumed.** `datagen.py` builds the consensus
+  layer from constant tables and seeded draws (a noise-chasing term + a promo term); whether
+  it helps or hurts is discovered by `fva.py` after the fact. The finding is falsifiable —
+  change the seed or the tables and the numbers move.
+- **Segment before you score.** Lumpy and intermittent SKUs are structurally unforecastable;
+  reporting their MAPE next to smooth SKUs' invites the wrong conclusion. Segmentation frames
+  every accuracy number.
+- **Everything computed, nothing hardcoded.** Every KPI, FVA figure and ranking is derived
+  from `history.json` at run time. Re-seed the generator and the whole dashboard changes.
+
+## Scenario walkthrough: where the overrides destroy value
+
+From the seeded `make demo` run (stable across runs):
+
+- **Statistical model vs naive: +7.0 pp WMAPE** (59.2% → 52.2%). The statistical layer earns
+  its keep — it is genuinely more accurate than the naive baseline.
+- **Human consensus vs statistical: −0.9 pp WMAPE** (52.2% → 53.1%). On net, the overrides
+  *give some of that back*. **52.5% of SKUs (21 of 40)** are worse after the human touch.
+- **The damage is concentrated in the long tail.** By segment, the override step *adds* value
+  on intermittent SKUs (+1.5 pp) but *destroys* it on lumpy SKUs (−6.9 pp). The ten worst
+  individual overrides are almost all lumpy or erratic slow-movers — e.g. Classic Cola 2L
+  (−20.5 pp), Aluminum Foil 75sqft (−19.7 pp), Foaming Hand Soap Refill (−14.9 pp).
+- **Why the *volume-weighted* damage is only −0.9 pp:** those hurt SKUs are the low-volume
+  tail. Just **8.6% of volume is intermittent+lumpy**; the other **91.4% is forecast-drivable**.
+  The overrides hurt a *majority of SKUs* but a *minority of volume* — which is precisely why
+  the effort is wasted: high analyst touch, near-zero volume payoff, measurable accuracy loss.
+- **The forecast still beats naive overall** (MASE 0.75) — because the statistical layer did
+  the heavy lifting, not the overrides.
+
+**Executive takeaway:** *Freeze manual overrides on the intermittent and lumpy long tail —
+these SKUs are unforecastable by construction and should be run on inventory policy, not a
+forecast. That reclaims the analyst effort currently producing a −6.9 pp accuracy loss on
+lumpy items and redirects it to the 91.4% of volume where disciplined forecasting actually
+pays. The single number to act on: 21 of 40 SKUs are getting worse forecasts because a human
+touched them.*
+
+## Assumptions & limitations
+
+Synthetic single-region data; additive promo model only (no causal or price-elasticity
+modelling); the statistical forecast is intentionally simple (stdlib decomposition + SES / MA,
+not a full statistical engine); MASE uses in-sample naive scaling; the SBC segmentation cutoffs
+(ADI 1.32, CV² 0.49) are the canonical published values and are dataset-agnostic; no hierarchy
+or forecast reconciliation across product levels; results illustrate the *method*, not any real
+company. Seniors bound their claims — this one is bounded to "the diagnostic, on a realistic
+synthetic portfolio."
+
+## Documentation
+
+- [docs/index.md](docs/index.md) — wiki home
+- [00 — Executive summary](docs/00-executive-summary.md) — the <10-minute non-technical read
+- [01 — Architecture](docs/01-architecture.md)
+- [02 — Demand segmentation](docs/02-demand-segmentation.md)
+- [03 — KPI reference](docs/03-kpi-reference.md)
+- [04 — Data dictionary](docs/04-data-dictionary.md)
+- [05 — Methodology & limitations](docs/05-methodology-and-limitations.md)
+- [06 — Roadmap](docs/06-roadmap.md)
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+---
+
+Built by Lavi Sahu — supply chain planning practitioner.

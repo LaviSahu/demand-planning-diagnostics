@@ -1,0 +1,1352 @@
+[
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-01",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 12.5,
+    "wmape_to": 19.5192,
+    "fva": -7.0192,
+    "fva_pct": -56.15
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-01",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 19.5192,
+    "wmape_to": 14.0243,
+    "fva": 5.4949,
+    "fva_pct": 28.15
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-01",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 12.5,
+    "wmape_to": 14.0243,
+    "fva": -1.5243,
+    "fva_pct": -12.19
+  },
+  {
+    "level": "sku",
+    "key": "SNA-SMOO-02",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 9.9882,
+    "wmape_to": 15.9167,
+    "fva": -5.9285,
+    "fva_pct": -59.36
+  },
+  {
+    "level": "sku",
+    "key": "SNA-SMOO-02",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 15.9167,
+    "wmape_to": 10.9392,
+    "fva": 4.9775,
+    "fva_pct": 31.27
+  },
+  {
+    "level": "sku",
+    "key": "SNA-SMOO-02",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 9.9882,
+    "wmape_to": 10.9392,
+    "fva": -0.951,
+    "fva_pct": -9.52
+  },
+  {
+    "level": "sku",
+    "key": "HOU-SMOO-03",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 11.1251,
+    "wmape_to": 14.2155,
+    "fva": -3.0904,
+    "fva_pct": -27.78
+  },
+  {
+    "level": "sku",
+    "key": "HOU-SMOO-03",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 14.2155,
+    "wmape_to": 9.4953,
+    "fva": 4.7202,
+    "fva_pct": 33.2
+  },
+  {
+    "level": "sku",
+    "key": "HOU-SMOO-03",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 11.1251,
+    "wmape_to": 9.4953,
+    "fva": 1.6299,
+    "fva_pct": 14.65
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-04",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 9.0301,
+    "wmape_to": 5.5836,
+    "fva": 3.4465,
+    "fva_pct": 38.17
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-04",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 5.5836,
+    "wmape_to": 5.5862,
+    "fva": -0.0026,
+    "fva_pct": -0.05
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-04",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 9.0301,
+    "wmape_to": 5.5862,
+    "fva": 3.4439,
+    "fva_pct": 38.14
+  },
+  {
+    "level": "sku",
+    "key": "SNA-SMOO-05",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 9.7722,
+    "wmape_to": 19.2828,
+    "fva": -9.5106,
+    "fva_pct": -97.32
+  },
+  {
+    "level": "sku",
+    "key": "SNA-SMOO-05",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 19.2828,
+    "wmape_to": 13.0755,
+    "fva": 6.2073,
+    "fva_pct": 32.19
+  },
+  {
+    "level": "sku",
+    "key": "SNA-SMOO-05",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 9.7722,
+    "wmape_to": 13.0755,
+    "fva": -3.3033,
+    "fva_pct": -33.8
+  },
+  {
+    "level": "sku",
+    "key": "HOU-SMOO-06",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 9.5812,
+    "wmape_to": 7.7204,
+    "fva": 1.8608,
+    "fva_pct": 19.42
+  },
+  {
+    "level": "sku",
+    "key": "HOU-SMOO-06",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 7.7204,
+    "wmape_to": 7.7193,
+    "fva": 0.0011,
+    "fva_pct": 0.01
+  },
+  {
+    "level": "sku",
+    "key": "HOU-SMOO-06",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 9.5812,
+    "wmape_to": 7.7193,
+    "fva": 1.8619,
+    "fva_pct": 19.43
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-07",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 11.3665,
+    "wmape_to": 8.5344,
+    "fva": 2.8321,
+    "fva_pct": 24.92
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-07",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 8.5344,
+    "wmape_to": 8.6306,
+    "fva": -0.0962,
+    "fva_pct": -1.13
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-07",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 11.3665,
+    "wmape_to": 8.6306,
+    "fva": 2.7359,
+    "fva_pct": 24.07
+  },
+  {
+    "level": "sku",
+    "key": "SNA-SMOO-08",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 8.9047,
+    "wmape_to": 6.5129,
+    "fva": 2.3918,
+    "fva_pct": 26.86
+  },
+  {
+    "level": "sku",
+    "key": "SNA-SMOO-08",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 6.5129,
+    "wmape_to": 6.4836,
+    "fva": 0.0293,
+    "fva_pct": 0.45
+  },
+  {
+    "level": "sku",
+    "key": "SNA-SMOO-08",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 8.9047,
+    "wmape_to": 6.4836,
+    "fva": 2.4211,
+    "fva_pct": 27.19
+  },
+  {
+    "level": "sku",
+    "key": "HOU-SMOO-09",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 6.8413,
+    "wmape_to": 14.2527,
+    "fva": -7.4113,
+    "fva_pct": -108.33
+  },
+  {
+    "level": "sku",
+    "key": "HOU-SMOO-09",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 14.2527,
+    "wmape_to": 9.1092,
+    "fva": 5.1434,
+    "fva_pct": 36.09
+  },
+  {
+    "level": "sku",
+    "key": "HOU-SMOO-09",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 6.8413,
+    "wmape_to": 9.1092,
+    "fva": -2.2679,
+    "fva_pct": -33.15
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-10",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 8.0365,
+    "wmape_to": 6.2273,
+    "fva": 1.8093,
+    "fva_pct": 22.51
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-10",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 6.2273,
+    "wmape_to": 6.2497,
+    "fva": -0.0224,
+    "fva_pct": -0.36
+  },
+  {
+    "level": "sku",
+    "key": "BEV-SMOO-10",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 8.0365,
+    "wmape_to": 6.2497,
+    "fva": 1.7869,
+    "fva_pct": 22.23
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-01",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 72.7034,
+    "wmape_to": 69.923,
+    "fva": 2.7803,
+    "fva_pct": 3.82
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-01",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 69.923,
+    "wmape_to": 75.2542,
+    "fva": -5.3312,
+    "fva_pct": -7.62
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-01",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 72.7034,
+    "wmape_to": 75.2542,
+    "fva": -2.5509,
+    "fva_pct": -3.51
+  },
+  {
+    "level": "sku",
+    "key": "HOU-ERRA-02",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 92.0197,
+    "wmape_to": 71.8992,
+    "fva": 20.1206,
+    "fva_pct": 21.87
+  },
+  {
+    "level": "sku",
+    "key": "HOU-ERRA-02",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 71.8992,
+    "wmape_to": 80.7238,
+    "fva": -8.8247,
+    "fva_pct": -12.27
+  },
+  {
+    "level": "sku",
+    "key": "HOU-ERRA-02",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 92.0197,
+    "wmape_to": 80.7238,
+    "fva": 11.2959,
+    "fva_pct": 12.28
+  },
+  {
+    "level": "sku",
+    "key": "BEV-ERRA-03",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 106.6496,
+    "wmape_to": 79.7484,
+    "fva": 26.9012,
+    "fva_pct": 25.22
+  },
+  {
+    "level": "sku",
+    "key": "BEV-ERRA-03",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 79.7484,
+    "wmape_to": 93.4079,
+    "fva": -13.6595,
+    "fva_pct": -17.13
+  },
+  {
+    "level": "sku",
+    "key": "BEV-ERRA-03",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 106.6496,
+    "wmape_to": 93.4079,
+    "fva": 13.2417,
+    "fva_pct": 12.42
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-04",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 80.8398,
+    "wmape_to": 74.7467,
+    "fva": 6.0931,
+    "fva_pct": 7.54
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-04",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 74.7467,
+    "wmape_to": 75.0448,
+    "fva": -0.298,
+    "fva_pct": -0.4
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-04",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 80.8398,
+    "wmape_to": 75.0448,
+    "fva": 5.7951,
+    "fva_pct": 7.17
+  },
+  {
+    "level": "sku",
+    "key": "HOU-ERRA-05",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 88.3,
+    "wmape_to": 70.8486,
+    "fva": 17.4514,
+    "fva_pct": 19.76
+  },
+  {
+    "level": "sku",
+    "key": "HOU-ERRA-05",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 70.8486,
+    "wmape_to": 69.5989,
+    "fva": 1.2496,
+    "fva_pct": 1.76
+  },
+  {
+    "level": "sku",
+    "key": "HOU-ERRA-05",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 88.3,
+    "wmape_to": 69.5989,
+    "fva": 18.7011,
+    "fva_pct": 21.18
+  },
+  {
+    "level": "sku",
+    "key": "BEV-ERRA-06",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 102.5875,
+    "wmape_to": 80.5501,
+    "fva": 22.0374,
+    "fva_pct": 21.48
+  },
+  {
+    "level": "sku",
+    "key": "BEV-ERRA-06",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 80.5501,
+    "wmape_to": 82.1389,
+    "fva": -1.5888,
+    "fva_pct": -1.97
+  },
+  {
+    "level": "sku",
+    "key": "BEV-ERRA-06",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 102.5875,
+    "wmape_to": 82.1389,
+    "fva": 20.4486,
+    "fva_pct": 19.93
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-07",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 83.9544,
+    "wmape_to": 86.9911,
+    "fva": -3.0368,
+    "fva_pct": -3.62
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-07",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 86.9911,
+    "wmape_to": 85.2103,
+    "fva": 1.7808,
+    "fva_pct": 2.05
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-07",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 83.9544,
+    "wmape_to": 85.2103,
+    "fva": -1.2559,
+    "fva_pct": -1.5
+  },
+  {
+    "level": "sku",
+    "key": "HOU-ERRA-08",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 94.8106,
+    "wmape_to": 73.0645,
+    "fva": 21.7462,
+    "fva_pct": 22.94
+  },
+  {
+    "level": "sku",
+    "key": "HOU-ERRA-08",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 73.0645,
+    "wmape_to": 82.0648,
+    "fva": -9.0003,
+    "fva_pct": -12.32
+  },
+  {
+    "level": "sku",
+    "key": "HOU-ERRA-08",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 94.8106,
+    "wmape_to": 82.0648,
+    "fva": 12.7458,
+    "fva_pct": 13.44
+  },
+  {
+    "level": "sku",
+    "key": "BEV-ERRA-09",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 108.8564,
+    "wmape_to": 75.8907,
+    "fva": 32.9657,
+    "fva_pct": 30.28
+  },
+  {
+    "level": "sku",
+    "key": "BEV-ERRA-09",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 75.8907,
+    "wmape_to": 77.2558,
+    "fva": -1.3651,
+    "fva_pct": -1.8
+  },
+  {
+    "level": "sku",
+    "key": "BEV-ERRA-09",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 108.8564,
+    "wmape_to": 77.2558,
+    "fva": 31.6006,
+    "fva_pct": 29.03
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-10",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 71.9143,
+    "wmape_to": 74.8993,
+    "fva": -2.985,
+    "fva_pct": -4.15
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-10",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 74.8993,
+    "wmape_to": 80.9772,
+    "fva": -6.0779,
+    "fva_pct": -8.11
+  },
+  {
+    "level": "sku",
+    "key": "SNA-ERRA-10",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 71.9143,
+    "wmape_to": 80.9772,
+    "fva": -9.0629,
+    "fva_pct": -12.6
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-01",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 84.8789,
+    "wmape_to": 85.0103,
+    "fva": -0.1313,
+    "fva_pct": -0.15
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-01",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 85.0103,
+    "wmape_to": 82.4717,
+    "fva": 2.5385,
+    "fva_pct": 2.99
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-01",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 84.8789,
+    "wmape_to": 82.4717,
+    "fva": 2.4072,
+    "fva_pct": 2.84
+  },
+  {
+    "level": "sku",
+    "key": "BEV-INTE-02",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 84.9676,
+    "wmape_to": 86.6849,
+    "fva": -1.7173,
+    "fva_pct": -2.02
+  },
+  {
+    "level": "sku",
+    "key": "BEV-INTE-02",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 86.6849,
+    "wmape_to": 83.5727,
+    "fva": 3.1122,
+    "fva_pct": 3.59
+  },
+  {
+    "level": "sku",
+    "key": "BEV-INTE-02",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 84.9676,
+    "wmape_to": 83.5727,
+    "fva": 1.395,
+    "fva_pct": 1.64
+  },
+  {
+    "level": "sku",
+    "key": "SNA-INTE-03",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 81.3282,
+    "wmape_to": 80.798,
+    "fva": 0.5303,
+    "fva_pct": 0.65
+  },
+  {
+    "level": "sku",
+    "key": "SNA-INTE-03",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 80.798,
+    "wmape_to": 79.1533,
+    "fva": 1.6446,
+    "fva_pct": 2.04
+  },
+  {
+    "level": "sku",
+    "key": "SNA-INTE-03",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 81.3282,
+    "wmape_to": 79.1533,
+    "fva": 2.1749,
+    "fva_pct": 2.67
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-04",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 107.4297,
+    "wmape_to": 100.251,
+    "fva": 7.1787,
+    "fva_pct": 6.68
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-04",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 100.251,
+    "wmape_to": 100.8609,
+    "fva": -0.6099,
+    "fva_pct": -0.61
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-04",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 107.4297,
+    "wmape_to": 100.8609,
+    "fva": 6.5688,
+    "fva_pct": 6.11
+  },
+  {
+    "level": "sku",
+    "key": "BEV-INTE-05",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 73.8237,
+    "wmape_to": 76.2563,
+    "fva": -2.4326,
+    "fva_pct": -3.3
+  },
+  {
+    "level": "sku",
+    "key": "BEV-INTE-05",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 76.2563,
+    "wmape_to": 73.5844,
+    "fva": 2.6719,
+    "fva_pct": 3.5
+  },
+  {
+    "level": "sku",
+    "key": "BEV-INTE-05",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 73.8237,
+    "wmape_to": 73.5844,
+    "fva": 0.2393,
+    "fva_pct": 0.32
+  },
+  {
+    "level": "sku",
+    "key": "SNA-INTE-06",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 134.3567,
+    "wmape_to": 114.4737,
+    "fva": 19.883,
+    "fva_pct": 14.8
+  },
+  {
+    "level": "sku",
+    "key": "SNA-INTE-06",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 114.4737,
+    "wmape_to": 121.1842,
+    "fva": -6.7105,
+    "fva_pct": -5.86
+  },
+  {
+    "level": "sku",
+    "key": "SNA-INTE-06",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 134.3567,
+    "wmape_to": 121.1842,
+    "fva": 13.1725,
+    "fva_pct": 9.8
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-07",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 43.7285,
+    "wmape_to": 41.0477,
+    "fva": 2.6808,
+    "fva_pct": 6.13
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-07",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 41.0477,
+    "wmape_to": 40.4224,
+    "fva": 0.6253,
+    "fva_pct": 1.52
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-07",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 43.7285,
+    "wmape_to": 40.4224,
+    "fva": 3.3061,
+    "fva_pct": 7.56
+  },
+  {
+    "level": "sku",
+    "key": "BEV-INTE-08",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 85.3168,
+    "wmape_to": 80.2792,
+    "fva": 5.0377,
+    "fva_pct": 5.9
+  },
+  {
+    "level": "sku",
+    "key": "BEV-INTE-08",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 80.2792,
+    "wmape_to": 79.2984,
+    "fva": 0.9807,
+    "fva_pct": 1.22
+  },
+  {
+    "level": "sku",
+    "key": "BEV-INTE-08",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 85.3168,
+    "wmape_to": 79.2984,
+    "fva": 6.0184,
+    "fva_pct": 7.05
+  },
+  {
+    "level": "sku",
+    "key": "SNA-INTE-09",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 77.24,
+    "wmape_to": 68.4089,
+    "fva": 8.8311,
+    "fva_pct": 11.43
+  },
+  {
+    "level": "sku",
+    "key": "SNA-INTE-09",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 68.4089,
+    "wmape_to": 69.8906,
+    "fva": -1.4817,
+    "fva_pct": -2.17
+  },
+  {
+    "level": "sku",
+    "key": "SNA-INTE-09",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 77.24,
+    "wmape_to": 69.8906,
+    "fva": 7.3494,
+    "fva_pct": 9.51
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-10",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 93.2745,
+    "wmape_to": 105.9468,
+    "fva": -12.6723,
+    "fva_pct": -13.59
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-10",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 105.9468,
+    "wmape_to": 95.7294,
+    "fva": 10.2174,
+    "fva_pct": 9.64
+  },
+  {
+    "level": "sku",
+    "key": "HOU-INTE-10",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 93.2745,
+    "wmape_to": 95.7294,
+    "fva": -2.4549,
+    "fva_pct": -2.63
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-01",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 168.1331,
+    "wmape_to": 154.491,
+    "fva": 13.6421,
+    "fva_pct": 8.11
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-01",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 154.491,
+    "wmape_to": 168.1331,
+    "fva": -13.6421,
+    "fva_pct": -8.83
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-01",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 168.1331,
+    "wmape_to": 168.1331,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "sku",
+    "key": "SNA-LUMP-02",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 192.2179,
+    "wmape_to": 192.4125,
+    "fva": -0.1946,
+    "fva_pct": -0.1
+  },
+  {
+    "level": "sku",
+    "key": "SNA-LUMP-02",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 192.4125,
+    "wmape_to": 192.2179,
+    "fva": 0.1946,
+    "fva_pct": 0.1
+  },
+  {
+    "level": "sku",
+    "key": "SNA-LUMP-02",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 192.2179,
+    "wmape_to": 192.2179,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "sku",
+    "key": "HOU-LUMP-03",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 178.6957,
+    "wmape_to": 191.3587,
+    "fva": -12.663,
+    "fva_pct": -7.09
+  },
+  {
+    "level": "sku",
+    "key": "HOU-LUMP-03",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 191.3587,
+    "wmape_to": 178.6957,
+    "fva": 12.663,
+    "fva_pct": 6.62
+  },
+  {
+    "level": "sku",
+    "key": "HOU-LUMP-03",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 178.6957,
+    "wmape_to": 178.6957,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-04",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 169.2815,
+    "wmape_to": 157.2947,
+    "fva": 11.9868,
+    "fva_pct": 7.08
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-04",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 157.2947,
+    "wmape_to": 169.2815,
+    "fva": -11.9868,
+    "fva_pct": -7.62
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-04",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 169.2815,
+    "wmape_to": 169.2815,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "sku",
+    "key": "SNA-LUMP-05",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 121.7622,
+    "wmape_to": 142.078,
+    "fva": -20.3158,
+    "fva_pct": -16.68
+  },
+  {
+    "level": "sku",
+    "key": "SNA-LUMP-05",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 142.078,
+    "wmape_to": 121.7622,
+    "fva": 20.3158,
+    "fva_pct": 14.3
+  },
+  {
+    "level": "sku",
+    "key": "SNA-LUMP-05",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 121.7622,
+    "wmape_to": 121.7622,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "sku",
+    "key": "HOU-LUMP-06",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 157.0122,
+    "wmape_to": 142.1037,
+    "fva": 14.9085,
+    "fva_pct": 9.5
+  },
+  {
+    "level": "sku",
+    "key": "HOU-LUMP-06",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 142.1037,
+    "wmape_to": 157.0122,
+    "fva": -14.9085,
+    "fva_pct": -10.49
+  },
+  {
+    "level": "sku",
+    "key": "HOU-LUMP-06",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 157.0122,
+    "wmape_to": 157.0122,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-07",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 188.0952,
+    "wmape_to": 167.6339,
+    "fva": 20.4613,
+    "fva_pct": 10.88
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-07",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 167.6339,
+    "wmape_to": 188.0952,
+    "fva": -20.4613,
+    "fva_pct": -12.21
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-07",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 188.0952,
+    "wmape_to": 188.0952,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "sku",
+    "key": "SNA-LUMP-08",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 175.3593,
+    "wmape_to": 165.7341,
+    "fva": 9.6253,
+    "fva_pct": 5.49
+  },
+  {
+    "level": "sku",
+    "key": "SNA-LUMP-08",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 165.7341,
+    "wmape_to": 175.3593,
+    "fva": -9.6253,
+    "fva_pct": -5.81
+  },
+  {
+    "level": "sku",
+    "key": "SNA-LUMP-08",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 175.3593,
+    "wmape_to": 175.3593,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "sku",
+    "key": "HOU-LUMP-09",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 180.4982,
+    "wmape_to": 160.7651,
+    "fva": 19.7331,
+    "fva_pct": 10.93
+  },
+  {
+    "level": "sku",
+    "key": "HOU-LUMP-09",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 160.7651,
+    "wmape_to": 180.4982,
+    "fva": -19.7331,
+    "fva_pct": -12.27
+  },
+  {
+    "level": "sku",
+    "key": "HOU-LUMP-09",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 180.4982,
+    "wmape_to": 180.4982,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-10",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 154.0486,
+    "wmape_to": 145.2007,
+    "fva": 8.8478,
+    "fva_pct": 5.74
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-10",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 145.2007,
+    "wmape_to": 154.0486,
+    "fva": -8.8478,
+    "fva_pct": -6.09
+  },
+  {
+    "level": "sku",
+    "key": "BEV-LUMP-10",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 154.0486,
+    "wmape_to": 154.0486,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "segment",
+    "key": "smooth",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 9.8265,
+    "wmape_to": 12.1074,
+    "fva": -2.2809,
+    "fva_pct": -23.21
+  },
+  {
+    "level": "segment",
+    "key": "smooth",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 12.1074,
+    "wmape_to": 9.3073,
+    "fva": 2.8001,
+    "fva_pct": 23.13
+  },
+  {
+    "level": "segment",
+    "key": "smooth",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 9.8265,
+    "wmape_to": 9.3073,
+    "fva": 0.5192,
+    "fva_pct": 5.28
+  },
+  {
+    "level": "segment",
+    "key": "erratic",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 90.8095,
+    "wmape_to": 75.582,
+    "fva": 15.2275,
+    "fva_pct": 16.77
+  },
+  {
+    "level": "segment",
+    "key": "erratic",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 75.582,
+    "wmape_to": 79.5081,
+    "fva": -3.9261,
+    "fva_pct": -5.19
+  },
+  {
+    "level": "segment",
+    "key": "erratic",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 90.8095,
+    "wmape_to": 79.5081,
+    "fva": 11.3014,
+    "fva_pct": 12.45
+  },
+  {
+    "level": "segment",
+    "key": "intermittent",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 83.2753,
+    "wmape_to": 80.9851,
+    "fva": 2.2902,
+    "fva_pct": 2.75
+  },
+  {
+    "level": "segment",
+    "key": "intermittent",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 80.9851,
+    "wmape_to": 79.5249,
+    "fva": 1.4602,
+    "fva_pct": 1.8
+  },
+  {
+    "level": "segment",
+    "key": "intermittent",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 83.2753,
+    "wmape_to": 79.5249,
+    "fva": 3.7504,
+    "fva_pct": 4.5
+  },
+  {
+    "level": "segment",
+    "key": "lumpy",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 160.7108,
+    "wmape_to": 153.8641,
+    "fva": 6.8466,
+    "fva_pct": 4.26
+  },
+  {
+    "level": "segment",
+    "key": "lumpy",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 153.8641,
+    "wmape_to": 160.7108,
+    "fva": -6.8466,
+    "fva_pct": -4.45
+  },
+  {
+    "level": "segment",
+    "key": "lumpy",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 160.7108,
+    "wmape_to": 160.7108,
+    "fva": 0.0,
+    "fva_pct": 0.0
+  },
+  {
+    "level": "overall",
+    "key": "overall",
+    "from_layer": "naive",
+    "to_layer": "statistical",
+    "wmape_from": 59.2095,
+    "wmape_to": 52.1742,
+    "fva": 7.0353,
+    "fva_pct": 11.88
+  },
+  {
+    "level": "overall",
+    "key": "overall",
+    "from_layer": "statistical",
+    "to_layer": "consensus",
+    "wmape_from": 52.1742,
+    "wmape_to": 53.1156,
+    "fva": -0.9414,
+    "fva_pct": -1.8
+  },
+  {
+    "level": "overall",
+    "key": "overall",
+    "from_layer": "naive",
+    "to_layer": "consensus",
+    "wmape_from": 59.2095,
+    "wmape_to": 53.1156,
+    "fva": 6.0939,
+    "fva_pct": 10.29
+  }
+]
